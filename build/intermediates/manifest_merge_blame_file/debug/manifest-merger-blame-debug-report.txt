@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.testapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml
+10
+11    <!-- Include required permissions for Google Maps API to run. -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\mocch\.gradle\caches\transforms-3\8db774c728c91034b14a2aa496c037f2\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\mocch\.gradle\caches\transforms-3\8db774c728c91034b14a2aa496c037f2\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\mocch\.gradle\caches\transforms-3\8db774c728c91034b14a2aa496c037f2\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:24:5-67
+13-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\mocch\.gradle\caches\transforms-3\8db774c728c91034b14a2aa496c037f2\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:24:22-64
+14
+15    <uses-feature
+15-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\mocch\.gradle\caches\transforms-3\8db774c728c91034b14a2aa496c037f2\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+16        android:glEsVersion="0x00020000"
+16-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\mocch\.gradle\caches\transforms-3\8db774c728c91034b14a2aa496c037f2\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+17        android:required="true" />
+17-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\mocch\.gradle\caches\transforms-3\8db774c728c91034b14a2aa496c037f2\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+18
+19    <queries>
+19-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\mocch\.gradle\caches\transforms-3\8db774c728c91034b14a2aa496c037f2\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+20
+21        <!-- Needs to be explicitly declared on Android R+ -->
+22        <package android:name="com.google.android.apps.maps" />
+22-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\mocch\.gradle\caches\transforms-3\8db774c728c91034b14a2aa496c037f2\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\mocch\.gradle\caches\transforms-3\8db774c728c91034b14a2aa496c037f2\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+23    </queries>
+24
+25    <application
+25-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:5:5-21:19
+26        android:allowBackup="true"
+26-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:6:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.3.2] C:\Users\mocch\.gradle\caches\transforms-3\da10cfb2eeae6e089045776edcddfc36\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:7:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:8:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:9:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:10:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.Testapp" >
+35-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:11:9-45
+36        <activity
+36-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:12:9-20:20
+37            android:name="com.example.testapp.MainActivity"
+37-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:13:13-41
+38            android:exported="true" >
+38-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:14:13-36
+39            <intent-filter>
+39-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:15:13-19:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:16:17-69
+40-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:16:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:18:17-77
+42-->C:\Users\mocch\Desktop\testapp\app\src\main\AndroidManifest.xml:18:27-74
+43            </intent-filter>
+44        </activity>
+45        <!-- Needs to be explicitly declared on P+ -->
+46        <uses-library
+46-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\mocch\.gradle\caches\transforms-3\8db774c728c91034b14a2aa496c037f2\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+47            android:name="org.apache.http.legacy"
+47-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\mocch\.gradle\caches\transforms-3\8db774c728c91034b14a2aa496c037f2\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+48            android:required="false" />
+48-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\mocch\.gradle\caches\transforms-3\8db774c728c91034b14a2aa496c037f2\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+49
+50        <activity
+50-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mocch\.gradle\caches\transforms-3\fe87221f7967b8519cf239bc0dcc7f99\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+51            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mocch\.gradle\caches\transforms-3\fe87221f7967b8519cf239bc0dcc7f99\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mocch\.gradle\caches\transforms-3\fe87221f7967b8519cf239bc0dcc7f99\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+53-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mocch\.gradle\caches\transforms-3\fe87221f7967b8519cf239bc0dcc7f99\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+54
+55        <meta-data
+55-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mocch\.gradle\caches\transforms-3\72aa157820007e1e749af042de303a19\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+56            android:name="com.google.android.gms.version"
+56-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mocch\.gradle\caches\transforms-3\72aa157820007e1e749af042de303a19\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+57            android:value="@integer/google_play_services_version" />
+57-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\mocch\.gradle\caches\transforms-3\72aa157820007e1e749af042de303a19\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+58    </application>
+59
+60</manifest>
